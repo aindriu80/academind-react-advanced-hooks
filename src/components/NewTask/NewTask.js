@@ -11,7 +11,7 @@ const NewTask = (props) => {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch(
+      const response = await fetch( 
         'https://academind-react-databases-app-default-rtdb.europe-west1.firebasedatabase.app/tasks.json',
         {
           method: 'POST',
